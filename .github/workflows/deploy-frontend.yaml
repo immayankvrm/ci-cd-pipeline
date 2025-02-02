@@ -9,7 +9,7 @@ on:
       - "project/index.html"
       - "project/package.json"
       - "project/vite.config.ts"
-
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
